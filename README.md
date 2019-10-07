@@ -1,2 +1,2 @@
 # cm-arduino
-CM1 Week 6 Arduino Examples
+CM1 Week 7 Arduino Examples
