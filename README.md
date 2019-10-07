@@ -13,3 +13,11 @@ The RGB LED examples are constructed in a similar fashion to the various tutoria
 ## Arduino + Processing Examples
 
 The Arduino + Processing examples demonstrate basic serial communication between Arduino and Processing sketches. The initial examples are built based on the Sparkfun tutorial [Connecting Arduino to Processing](https://learn.sparkfun.com/tutorials/connecting-arduino-to-processing/all). Further examples will expand upon the content in the tutorial. 
+
+## Servo Examples
+
+**Wires**
+
+Brown or Black = Ground
+Red = +5 V
+Orange or White = Control

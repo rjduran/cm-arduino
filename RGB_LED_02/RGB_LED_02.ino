@@ -1,10 +1,14 @@
 // RGB LED 02
 // RJ Duran
 // Cycles through colors with 1 sec delay for each
+// Works for both common cathode and common annode LEDS
 
 int redPin = 11;    // set pin for red LED
 int greenPin = 10;  // set pin for green LED
 int bluePin = 9;    // set pin for blue LED
+
+//uncomment this line if using a Common Anode LED
+//#define COMMON_ANODE
 
 void setup() {
   pinMode(redPin, OUTPUT);
@@ -32,6 +36,13 @@ void loop()
 }
 
 void RGBColor(int redVal, int greenVal, int blueVal) {
+
+  #ifdef COMMON_ANODE
+    redVal = 255 - redVal;
+    greenVal = 255 - greenVal;
+    blueVal = 255 - blueVal;
+  #endif
+  
   analogWrite(redPin, redVal);
   analogWrite(greenPin, greenVal);
   analogWrite(bluePin, blueVal);
