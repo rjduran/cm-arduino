@@ -1,14 +1,14 @@
 // RGB LED 02
 // RJ Duran
 // Cycles through colors with 1 sec delay for each
-// Works for both common cathode and common annode LEDS
+// Works for both Common Cathode and Common Anode LEDs. Default mode is Common Anode.
 
 int redPin = 11;    // set pin for red LED
 int greenPin = 10;  // set pin for green LED
 int bluePin = 9;    // set pin for blue LED
 
-//uncomment this line if using a Common Anode LED
-//#define COMMON_ANODE
+// comment this line out if using a Common Cathode LED
+#define COMMON_ANODE
 
 void setup() {
   pinMode(redPin, OUTPUT);
