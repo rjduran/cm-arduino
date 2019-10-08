@@ -7,19 +7,19 @@ The RGB LED examples are constructed in a similar fashion to the various tutoria
 
 ### RGB_LED_01
 
-Hardware
+**Hardware**
 
 * 1 x breadboard
 * 1 x Arduino uno
 * Hook Up Wires (aka Jumpers)
 * 1 x RGB LED (Common Annode)
-* 3 x 220 ohm LEDs _(Note: The circuit will also work without these as long as you aren't trying to hook up several RGB LEDs powered by your USB port.)_
+* 3 x 220 ohm LEDs _(Note: The circuit will also work without these as long as you aren't trying to hook up several RGB LEDs powered by your USB port. If you don't use resistors, make sure to still connect each signal wire to the correct leg of the RGB LED.)_
 
 ![RGB_LED_01][RGB_LED_01]
 
 ### RGB_LED_02
 
-Hardware
+**Hardware**
 
 * Same as previous example
 
@@ -27,7 +27,7 @@ Hardware
 
 ### RGB_LED_03
 
-Hardware
+**Hardware**
 
 * Same as previous 2 examples
 * 3 x Potentiometers (aka Knob)
